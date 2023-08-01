@@ -1,0 +1,21 @@
+{
+  "name": "uniapp-global-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/node": "^20.4.5",
+    "lerna": "^7.1.4",
+    "rollup": "^3.27.0",
+    "typescript": "^5.1.6"
+  }
+}
