@@ -1,0 +1,1 @@
+使用方法，请查看项目：[https://github.com/x007xyz/uniapp-global-component](https://github.com/x007xyz/uniapp-global-component)

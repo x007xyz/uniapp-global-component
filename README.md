@@ -8,6 +8,12 @@
 需要先在uniapp的components中，创建组件；我们创建组件`base-confirm`和`base-loading`
 ### 在webpack中使用
 
+添加`npm`包
+
+```bash
+npm install @uniapp-global-component/webpack -D
+```
+
 在`config.vue.js`文件中配置
 
 ```js
@@ -20,10 +26,16 @@ module.exports = {
         {
           test: /\.vue$/,
           use: {
+            // 使用HBuilder构建的项目
+            // loader: path.resolve(__dirname,'./node_modules/@uniapp-global-component/webpack'),
+            // 使用cli构建的项目
             loader: "@uniapp-global-component/webpack",
             options: {
+              // HBuilder构建项目，默认地址
+              // pagesPath: path.resolve(__dirname,'.'),
+              // cli构建项目，默认地址
               pagesPath: path.resolve(__dirname,'./src'),
-              rewrite: "uni.$global", // 默认$refs
+              // rewrite: "uni.$global", // 默认$refs
               components: [{
                 code: `<base-confirm ref='confirm'></base-confirm>`,
                 global: true
@@ -41,6 +53,12 @@ module.exports = {
 ```
 ### 在vite项目中使用
 
+添加`npm`包
+
+```bash
+npm install @uniapp-global-component/vite -D
+```
+
 在`vite.config.js`文件中配置
 
 ```js
@@ -51,8 +69,11 @@ import path from 'path'
 export default defineConfig({
   plugins: [
     globalComponent({
+      // HBuilder构建项目，默认地址
+      // pagesPath: path.resolve(__dirname,'.'),
+      // cli构建项目，默认地址
       pagesPath: path.resolve(__dirname,'./src'),
-      rewrite: "uni.$global", // 默认$refs
+      // rewrite: "uni.$global", // 默认$refs
       components: [{
         code: `<base-confirm ref='confirm'></base-confirm>`,
         global: true
