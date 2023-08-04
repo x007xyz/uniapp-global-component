@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w"
+    "dev": "rollup -c -w",
+    "release": "pnpm run build && npx lerna publish"
   },
   "keywords": [],
   "author": "",
