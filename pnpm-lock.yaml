@@ -36,13 +36,13 @@ importers:
   packages/vite:
     dependencies:
       '@uniapp-global-component/core':
-        specifier: ^0.3.1
+        specifier: ^1.0.0
         version: link:../core
 
   packages/webpack:
     dependencies:
       '@uniapp-global-component/core':
-        specifier: ^0.3.1
+        specifier: ^1.0.0
         version: link:../core
 
 packages:
