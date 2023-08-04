@@ -1,6 +1,6 @@
 {
   "name": "@uniapp-global-component/webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.mjs.js",
