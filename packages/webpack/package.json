@@ -1,6 +1,6 @@
 {
   "name": "@uniapp-global-component/webpack",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.mjs.js",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@uniapp-global-component/core": "workspace:^"
-  }
+    "@uniapp-global-component/core": "^0.2.0"
+  },
+  "gitHead": "45950f157017f16a29cc61e3314275ac26e7ed13"
 }
