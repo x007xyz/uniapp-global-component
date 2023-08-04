@@ -13,5 +13,9 @@
   "dependencies": {
     "jsonc-parser": "^3.2.0"
   },
-  "gitHead": "5cab23afb72ca98f6472e53e45c49365c454d93e"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "gitHead": "6127ca221b7f31d45d8343e009e2d3ab9c498dfc"
 }
