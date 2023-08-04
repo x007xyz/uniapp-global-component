@@ -1,6 +1,6 @@
 {
   "name": "@uniapp-global-component/core",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.mjs.js",
@@ -13,5 +13,5 @@
   "dependencies": {
     "jsonc-parser": "^3.2.0"
   },
-  "gitHead": "45950f157017f16a29cc61e3314275ac26e7ed13"
+  "gitHead": "5cab23afb72ca98f6472e53e45c49365c454d93e"
 }
